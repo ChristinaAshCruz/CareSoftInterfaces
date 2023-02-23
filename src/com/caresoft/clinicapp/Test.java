@@ -23,7 +23,7 @@ public class Test {
 
 		String authTest2 = doctor10.accessAuthorized(1) ? "PASS" : "FAIL";
 		System.out.printf("Physician auth test 2: %s\n", authTest2);
-
+//
 		// AdminUser Implementation Tests
 		System.out.println("\n========== AdminUser Tests ==========\n");
 		String pinTest3 = roseTyler.assignPin(42) ? "FAIL" : "PASS";
@@ -40,7 +40,7 @@ public class Test {
 
 		String authTest5 = roseTyler.accessAuthorized(2) ? "PASS" : "FAIL";
 		System.out.printf("Admin auth test 2: %s\n\n", authTest5);
-
+//
 		donnaNoble.accessAuthorized(42);
 		donnaNoble.accessAuthorized(4321);
 		donnaNoble.accessAuthorized(7);
